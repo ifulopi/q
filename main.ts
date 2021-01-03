@@ -1,4 +1,4 @@
-music.playMelody("G B B B F G C5 C ", 120)
 basic.forever(function () {
-	
+    music.playMelody("- - - - - - - - ", 120)
+    music.ringTone(pins.digitalReadPin(DigitalPin.P0))
 })
